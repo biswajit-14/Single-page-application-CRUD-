@@ -1,0 +1,22 @@
+{
+  "Emplyoee": [
+    {
+      "name": "Biswajit",
+      "salary": "17000",
+      "company": "UI/X",
+      "id": 1
+    },
+    {
+      "name": "Trilochan",
+      "salary": "75000",
+      "company": "Flipkart",
+      "id": 2
+    },
+    {
+      "name": "Soumya",
+      "salary": "67891",
+      "company": "Service Desk",
+      "id": 3
+    }
+  ]
+}

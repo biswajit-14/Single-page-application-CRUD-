@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav>.link:hover {
+    border-bottom: 2px solid black;
+    color: #ff00ff;
+    font-weight: 100;
+}
+
+#nav>a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+#myForm {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(magenta, crimson);
+}
+
+#myForm>table {
+    height: 300px;
+    width: 380px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px whitesmoke;
+}
+
+#myForm>table label {
+    color: white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#myForm>table input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#myForm>table input:focus {
+    outline: none;
+}
+
+#myForm>table>tr>th>h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myForm>table>tr>th>button {
+    padding: 3px 7px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myForm>table>tr>th>button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#myUser {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(magenta, crimson);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#card {
+    height: 200px;
+    width: 200px;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 15px whitesmoke;
+}
+
+#myUser>#card>table>tr>th{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+#card>table {
+    padding: 15px;
+}
+
+#card td {
+    color: #fff;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#card td>button {
+    height: 20px;
+    width: 70px;
+    background-color: whitesmoke;
+    /* display: inline-block; */
+    font-family: cursive;
+}
+
+#card td>button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#card td>button>a {
+    text-decoration: none;
+    color: black;
+}
